@@ -1,6 +1,7 @@
+import { LinearProgress } from "@mui/material";
 
 const Loader = () => {
-    return <div>Loader</div>;
+    return <LinearProgress />;
 };
 
 export default Loader;
